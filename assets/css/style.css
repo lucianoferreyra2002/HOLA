@@ -1,0 +1,30 @@
+body{
+    background-image: url("../../section/imagen/indeximg.png");
+    background-size: 25px 75px;
+    background-size: 100% 310%;
+
+}
+
+.header{
+    margin-left: 49%;
+    margin-top: 2%;
+}
+
+.image{
+    margin-left: 61%;
+    margin-top: -3%;
+}
+
+.contact{
+    margin-left: 88%;
+    margin-top: -3%;
+}
+
+.comentar{
+    margin-left: 75%;
+    margin-top: -2.5%;
+}
+
+.info{
+    height: -10%;
+}

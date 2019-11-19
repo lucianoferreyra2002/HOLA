@@ -1,0 +1,86 @@
+
+body{
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+    background-image: url("../imagen/fondoo.png");
+}
+.container{
+    width: 290px;
+    margin: 0 auto;
+    height: auto;
+    overflow: auto !important;
+}
+.commentBox{
+    background: #edeff4;
+    height: 25px;
+    overflow: hidden;
+    display: block;
+    padding: 10px;
+}
+.postComment input{
+    width: 100%;
+}
+.postComment .enviar{
+    clear: both;
+    float: left;
+}
+ 
+.comments{
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+    color: blanchedalmond;
+    background: #edeff4;
+    overflow: auto;
+}
+.comments .comment{
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    overflow: auto;
+}
+.comments .comment .avatar{
+    float: left;
+    margin-right: 10px;
+}
+.comments .comment .avatar img{
+    width: 32px;
+    height: 32px;
+}
+.comments .comment .autoComment{
+    float: right;
+    width: 225px;
+}
+.comments .comment .autoComment span{
+    font-weight: bold;
+	color: #3b5998;
+    cursor:pointer;
+}
+.ec-stars-wrapper {
+	/* Espacio entre los inline-block (los hijos, los `a`) 
+	   http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
+	font-size: 0;
+	/* Podríamos quitarlo, 
+		pero de esta manera (siempre que no le demos padding), 
+		sólo aplicará la regla .ec-stars-wrapper:hover a cuando
+		también se esté haciendo hover a alguna estrella */
+	display: inline-block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	/* Volver a dar tamaño al texto */
+	font-size: 32px;
+	font-size: 2rem;
+	
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: rgb(39, 130, 228);
+}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}

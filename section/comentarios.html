@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Comentarios </title>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="jquery.validate.js"></script>
+        <link rel="stylesheet" href="../section/css/style5.css">
+    </head>
+    <body>
+        <div class="ec-stars-wrapper"> <a href="#" data-value="1" title="Votar con 1 estrellas">★</a> <a href="#" data-value="2" title="Votar con 2 estrellas">★</a> <a href="#" data-value="3" title="Votar con 3 estrellas">★</a> <a href="#" data-value="4" title="Votar con 4 estrellas">★</a> <a href="#" data-value="5" title="Votar con 5 estrellas">★</a> </div> <noscript>Necesitas tener habilitado javascript para poder votar</noscript>
+        <div id="container">
+            <div id="comments">
+                <div class="comment">
+                    <div class="coment">
+                        <img src="./imagen/descargar.png" />
+                    </div>
+ 
+                    <div class="autoComment">
+                        <span>Alejandra: </span>
+                        esta bastante util, me contacte y espero a que me contesten           
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="avatar">
+                        <img src="../section/imagen/images.jpg" />
+                    </div>
+ 
+                    <div class="autoComment">
+                        <span>steve: </span>
+                        no se que comentar, quiero mi dinero kpo           
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="avatar">
+                        <img src="imagen/17e31e592ab23bb0e8b2c0e76c0a4361-perfil-masculino-avatar-5-by-vexels.png">
+                    </div>
+ 
+                    <div class="autoComment">
+                        <span>Carlos: </span>
+                        los demonios se visten de falsos amigos           
+                    </div>
+                </div>
+            </div>
+            <div id="commentBox">
+                <form action="post.php" id="postComment" method="post" accept-charset="utf-8">
+                    <input type="text" name="newComment" required="" autocomplete="off" placeholder="¿En que estas pensando?" id="newComment"></input>
+                    <input type="hidden" name="username" id="username" value="Alevsk"></input>
+                </form>
+            </div>
+        </div>
+        <ul>
+            <button>
+                <a href="../index.html">ir al inicio</a>
+            </button>
+        </ul>
+        <ul>
+            <button>
+                <a href="../section/masinfo.html">Preguntas Frecuentes</a>
+            </button>
+        </ul>
+    </body>
+</html>
